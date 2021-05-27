@@ -1,0 +1,28 @@
+    - inlist: inlist_create_header
+    - inlist: inlist_create_header
+      runtime_minutes:   0.51
+      steps:     78
+      retries:      0
+      redos:      0
+      solver_calls_made:     78
+      solver_calls_failed:      0
+      solver_iterations:    263
+      log_rel_run_E_err:        -5.6803657267161274
+    - inlist: inlist_core_header
+      runtime_minutes:   0.23
+      steps:    108
+      retries:      6
+      redos:      0
+      solver_calls_made:    114
+      solver_calls_failed:      6
+      solver_iterations:    403
+      log_rel_run_E_err:       -10.7297290948746316
+    - inlist: inlist_evolve_header
+      runtime_minutes:   1.08
+      steps:    192
+      retries:      0
+      redos:      0
+      solver_calls_made:    192
+      solver_calls_failed:      0
+      solver_iterations:    831
+      log_rel_run_E_err:       -10.5723835322083382
